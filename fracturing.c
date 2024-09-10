@@ -66,7 +66,6 @@ int main(int argc, char** arg){
 double askForUserInput(){
    
     double value = 0.0;
-    printf("please enter your x/y value\n");
     scanf("%lf",&value); //collecting user input
     
     return value;
